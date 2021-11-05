@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/cuihaixu@126.com/CHCommandN'
+  s.homepage         = 'https://github.com/Cuihaixu/CHCommandN.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cuihaixu@126.com' => 'cuihaixu@126.com' }
-  s.source           = { :git => 'https://github.com/cuihaixu@126.com/CHCommandN.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Cuihaixu/CHCommandN.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'CHCommandN/Classes/**/*'
+  s.vendored_frameworks = 'CHCommandN/Frameworks/CHCommandN.framework'
   
   # s.resource_bundles = {
   #   'CHCommandN' => ['CHCommandN/Assets/*.png']

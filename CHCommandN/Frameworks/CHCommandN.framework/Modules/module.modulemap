@@ -1,0 +1,6 @@
+framework module CHCommandN {
+  umbrella header "CHCommandN.h"
+
+  export *
+  module * { export * }
+}

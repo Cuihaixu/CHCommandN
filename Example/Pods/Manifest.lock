@@ -1,0 +1,16 @@
+PODS:
+  - CHCommandN (0.1.0)
+
+DEPENDENCIES:
+  - CHCommandN (from `../`)
+
+EXTERNAL SOURCES:
+  CHCommandN:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CHCommandN: 3c6337d6c3f2e45e28caa799c580b28d13b02025
+
+PODFILE CHECKSUM: 670abf9fbf0f59b65499cd364d5ef68a41f2671e
+
+COCOAPODS: 1.11.2
