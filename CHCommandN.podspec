@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'CHCommandN/Classes/**/*'
   s.vendored_frameworks = 'CHCommandN/Frameworks/CHCommandN.framework'
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
   # s.resource_bundles = {
   #   'CHCommandN' => ['CHCommandN/Assets/*.png']
