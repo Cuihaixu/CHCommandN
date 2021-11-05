@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CHCommandN_Tests' do
+  pod 'CHCommandN', :path => '../'
+  
+  
+end
